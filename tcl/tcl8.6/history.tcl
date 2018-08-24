@@ -10,10 +10,8 @@
 
 # The tcl::history array holds the history list and some additional
 # bookkeeping variables.
-#
-# nextid	the index used for the next history list item.
-# keep		the max size of the history list
-# oldest	the index of the oldest item in the history.
+##nextid	the index used for the next history list item.keep		the max size of the history list
+#oldest	the index of the oldest item in the history.
 
 namespace eval ::tcl {
     variable history
